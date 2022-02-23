@@ -50,7 +50,6 @@ params.maxThreshold = 200
 #params.blobColor = 255 
 
 # Create a detector with the parameters
-# OLD: detector = cv2.SimpleBlobDetector(params)
 detector = cv2.SimpleBlobDetector_create(params)
 
 
